@@ -25,7 +25,5 @@ jobs:
         with:
           name: kiro-${{ matrix.os }}-amd64-0.4.3
           path: |
-            ./target/release/kiro-editor
-            ./target/release/*.exe
-
+            ./target/release/kiro
   
